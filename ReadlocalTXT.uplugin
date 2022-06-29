@@ -3,13 +3,14 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "ReadlocalTXT",
-	"Description": "Read local TXT",
+	"Description": "Create, read, judge, write and delete local txt files",
 	"Category": "Other",
-	"CreatedBy": "CSJJWPP",
-	"CreatedByURL": "",
-	"DocsURL": "",
+	"CreatedBy": "ChangShengJiangJunWangPangPang",
+	"CreatedByURL": "https://space.bilibili.com/354782208",
+	"DocsURL": "https://github.com/FatsWang/ReadlocalTXT",
 	"MarketplaceURL": "",
 	"SupportURL": "",
+	"EngineVersion": "5.0.0",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -18,7 +19,18 @@
 		{
 			"Name": "ReadlocalTXT",
 			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": 
+	[
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
 		}
 	]
+
 }
