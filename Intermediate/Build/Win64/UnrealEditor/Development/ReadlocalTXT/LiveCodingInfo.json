@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ReadlocalTXT.cpp.obj": [
+			"ReadlocalTXT.cpp.obj",
+			"ReadlocalTXTBPLibrary.cpp.obj"
+		],
+		"Module.ReadlocalTXT.gen.cpp.obj": [
+			"ReadlocalTXT.init.gen.cpp.obj",
+			"ReadlocalTXTBPLibrary.gen.cpp.obj"
+		]
+	}
+}

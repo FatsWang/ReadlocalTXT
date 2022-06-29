@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\intermediate\\build\\win64\\unrealeditor\\development\\readlocaltxt\\module.readlocaltxt.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\wzf\\actionroguelike\\intermediate\\build\\win64\\actionroguelikeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\intermediate\\build\\win64\\unrealeditor\\development\\readlocaltxt\\definitions.readlocaltxt.h",
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\source\\readlocaltxt\\private\\readlocaltxt.cpp",
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\source\\readlocaltxt\\public\\readlocaltxt.h",
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\source\\readlocaltxt\\private\\readlocaltxtbplibrary.cpp",
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\source\\readlocaltxt\\public\\readlocaltxtbplibrary.h",
+            "e:\\epic\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\filemanagergeneric.h",
+            "d:\\wzf\\actionroguelike\\plugins\\readlocaltxt\\intermediate\\build\\win64\\unrealeditor\\inc\\readlocaltxt\\readlocaltxtbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

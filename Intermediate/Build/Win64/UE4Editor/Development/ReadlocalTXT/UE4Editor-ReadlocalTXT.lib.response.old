@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ReadlocalTXT.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\WZF\RemoveTxt\RemoveTxt\Intermediate\Build\Win64\RemoveTxtEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\WZF\RemoveTxt\RemoveTxt\Plugins\ReadlocalTXT\Intermediate\Build\Win64\UE4Editor\Development\ReadlocalTXT\Module.ReadlocalTXT.cpp.obj"
+"D:\WZF\RemoveTxt\RemoveTxt\Plugins\ReadlocalTXT\Intermediate\Build\Win64\UE4Editor\Development\ReadlocalTXT\Module.ReadlocalTXT.gen.cpp.obj"
+"D:\WZF\RemoveTxt\RemoveTxt\Plugins\ReadlocalTXT\Intermediate\Build\Win64\UE4Editor\Development\ReadlocalTXT\Default.rc2.res"
+/OUT:"D:\WZF\RemoveTxt\RemoveTxt\Plugins\ReadlocalTXT\Intermediate\Build\Win64\UE4Editor\Development\ReadlocalTXT\UE4Editor-ReadlocalTXT.lib"
