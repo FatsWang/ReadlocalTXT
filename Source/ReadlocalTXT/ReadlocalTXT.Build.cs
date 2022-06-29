@@ -1,4 +1,4 @@
-// Some copyright should be here...
+// Copyright 2022 "ChangShengJiangJuWangPangPang".All Rights Reserved.
 
 using UnrealBuildTool;
 
