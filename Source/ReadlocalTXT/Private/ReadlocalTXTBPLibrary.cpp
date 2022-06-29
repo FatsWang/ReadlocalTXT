@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2022 "ChangShengJiangJuWangPangPang".All Rights Reserved.
 
 #include "ReadlocalTXTBPLibrary.h"
 
@@ -12,12 +12,12 @@ UReadlocalTXTBPLibrary::UReadlocalTXTBPLibrary(const FObjectInitializer& ObjectI
 }
 
 
-//*****************************创建文件***************
+//*****************************create a file***************
 void  UReadlocalTXTBPLibrary::CreateTxt(FString URL)
 {
-	FFileHelper::SaveStringToFile(TEXT("创建成功"), *URL);
+	FFileHelper::SaveStringToFile(TEXT("Created successfully"), *URL);
 }
-//******************判断文件是否存在*****************
+//******************Determine whether the file exists*****************
 bool UReadlocalTXTBPLibrary::ISvalidTxt(FString URL)
 {
     if(FFileManagerGeneric::Get().FileExists(*URL))
@@ -25,34 +25,31 @@ bool UReadlocalTXTBPLibrary::ISvalidTxt(FString URL)
     	return true;
       }
 	return false;
-	//返回变量值
+	
 }
 
-//*****************读取文件********************
+//*****************read file********************
 FString UReadlocalTXTBPLibrary::ReadTxt(FString URL)
 {
-	FString resultString; //内容存储位置
+	FString resultString; 
 	FFileHelper::LoadFileToString(resultString, *URL);
 	return  resultString;
 
 }
 
 
-//**********************写入文件并保存****************
+//**********************Write file and save****************
 bool UReadlocalTXTBPLibrary::WriteTxt(FString data,FString URL)
 {
-	//FString LoadDir = FPaths::ProjectContentDir()/TEXT("URL");  //文件路径
-	FFileHelper::SaveStringToFile(TEXT("data"), *URL); //写入内容
-	//创建临时变量
-	bool result;
-	//判断是否存储成功
-	result =FFileHelper::SaveStringToFile(data,*URL);
-	//返回结果
-	return result;
+	FFileHelper::SaveStringToFile(TEXT("data"), *URL); 
+	bool bResult;
+	bResult =FFileHelper::SaveStringToFile(data,*URL);
+
+	return bResult;
 }
 
 
-//**********************删除文件!!慎用!!***********
+//**********************Delete file!! Use with caution!!***********
 bool UReadlocalTXTBPLibrary::RemoveTxt(FString URL)
 {
 	return FPlatformFileManager::Get().GetPlatformFile().DeleteFile(*URL);
